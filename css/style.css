@@ -1,0 +1,38 @@
+.pageContainer{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+.controls{
+    margin-top: 1em;
+}
+
+.radio-inline{
+    display: inline-block;
+    margin-right: 2em;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.text{
+    display: inline;
+    float: right;
+}
+
+.text h3{
+    margin: 0;
+}
+
+.buttons{
+    float: left;
+}

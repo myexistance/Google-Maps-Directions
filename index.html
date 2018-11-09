@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Google Maps Project</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="pageContainer">
+            <div id="map"></div>
+            <div class="controls">
+                <form class="buttons">
+                    <div>
+                        <div class="radio-inline">
+                            <input type="radio" name="mode" value="DRIVING" checked> Driving
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" name="mode" value="BICYCLING"> Bicycling
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" name="mode" value="TRANSIT"> Transit
+                        </div>
+                        <div class="radio-inline">
+                            <input type="radio" name="mode" value="WALKING"> Walking
+                        </div>
+                    </div>
+                </form>
+                <div class="text">
+                    <h3 id="time"></h3>
+                    <h3 id="distance"></h3>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC99BAY8FXNToQqBR8nVkXbbtKWRKA5rJ4&callback=initMap"async defer></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
